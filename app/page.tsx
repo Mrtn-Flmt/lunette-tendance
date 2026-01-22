@@ -145,15 +145,11 @@ export default function Home() {
             {/* Image produit avec glassmorphism */}
             <div className="relative order-1 lg:order-2 w-full max-w-md mx-auto lg:max-w-none">
               <div className="relative aspect-square flex items-center justify-center">
-                {/* Effet glassmorphism amélioré avec fond dégradé subtil */}
-                <div className="absolute inset-0 backdrop-blur-md bg-gradient-to-br from-white/70 via-white/60 to-slate-50/50 rounded-3xl border border-white/70 shadow-2xl" />
-                {/* Reflet subtil pour plus de profondeur */}
-                <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-transparent via-transparent to-white/10" />
+                {/* Conteneur parent avec fond blanc */}
+                <div className="absolute inset-0 bg-white rounded-3xl border border-white shadow-2xl" />
                 <div className="relative w-full h-full flex items-center justify-center p-6 sm:p-8">
                   {/* Conteneur pour l'image avec effet de profondeur */}
                   <div className="relative w-full h-full flex items-center justify-center">
-                    {/* Fond dégradé subtil derrière l'image */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-50/30 via-transparent to-red-50/20 rounded-2xl blur-sm" />
                     <Image
                       src="/lunette.jpg"
                       alt="Lunettes de soleil Pacific S01 - Style dur à cuire"
@@ -162,9 +158,6 @@ export default function Home() {
                       className="relative object-contain w-full h-full max-w-full z-10"
                       priority
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
-                      style={{
-                        filter: 'drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15)) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1))',
-                      }}
                     />
                   </div>
                 </div>
