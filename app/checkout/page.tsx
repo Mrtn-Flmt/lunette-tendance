@@ -101,7 +101,7 @@ export default function CheckoutPage() {
                   <span className="font-semibold">Merci d'avoir joué le jeu !</span> 🎭
                 </p>
                 <p className="text-xs text-slate-600 text-center mt-2">
-                  Partagez cette page avec vos amis !
+                  Partagez cette page avec vos amis pour leur faire la même blague !
                 </p>
               </div>
               <div className="flex gap-3">
@@ -307,21 +307,11 @@ export default function CheckoutPage() {
                         Cliquez sur le lien ci-dessous pour compléter votre commande
                       </p>
                       <Button
-                        asChild
+                        onClick={() => setShowJokeModal(true)}
                         className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold"
                       >
-                        <a
-                          href="https://paypal.me/flmtech"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            window.open('https://paypal.me/flmtech', '_blank');
-                          }}
-                        >
-                          <CreditCard className="mr-2 h-4 w-4" />
-                          Payer maintenant
-                        </a>
+                        <CreditCard className="mr-2 h-4 w-4" />
+                        Payer maintenant
                       </Button>
                       <p className="text-xs text-slate-500 text-center mt-2 italic">
                         *Paiement sécurisé via PayPal
