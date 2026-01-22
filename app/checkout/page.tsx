@@ -91,7 +91,7 @@ export default function CheckoutPage() {
                   <span className="font-semibold italic"> pour le moment !</span>
                 </p>
                 <p className="text-slate-600 mt-3">
-                  Mais vous avez quand même réussi à "faire le job" en remplissant tout le formulaire ! 👏
+                  Mais vous avez quand même réussi à "faire le job" 😎 en remplissant tout le formulaire ! 👏
                 </p>
               </CardDescription>
             </CardHeader>
