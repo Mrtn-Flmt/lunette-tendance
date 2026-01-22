@@ -1,0 +1,151 @@
+{
+  "common": {
+    "brand": "Lunettes de Dur à Cuire",
+    "styleEmmanuel": "Style Emmanuel",
+    "weAssume": "(On assume)",
+    "lang": "Langue"
+  },
+  "nav": {
+    "trend": "La Tendance",
+    "product": "Le Produit",
+    "order": "Commander",
+    "back": "Retour"
+  },
+  "home": {
+    "hero": {
+      "trendBadge": "Tendance du moment",
+      "title": "Lunette de Dur à Cuire",
+      "subtitle": "Pacific S01",
+      "price": "29€",
+      "priceStrikethrough": "60€",
+      "freeForFriends": "🎁 Gratuit pour les copains",
+      "description": "L'élégance à la française. Le style qui fait le buzz. Les lunettes de soleil qui ont conquis les réseaux et les personnalités. Design aviateur premium, attitude badass garantie.",
+      "descriptionEnd": "Surfez sur la tendance avec classe.",
+      "descriptionFootnote": "*Testé et approuvé par les plus grandes personnalités (et leurs conseillers en communication).",
+      "ctaLook": "Je veux le look maintenant",
+      "ctaTrend": "Découvrir la tendance",
+      "rating": "4.9/5",
+      "reviews": "(2.3k avis)",
+      "inStock": "En stock",
+      "freeShipping": "Livraison gratuite à partir de 50€",
+      "freeShippingNote": "(ou 29€ si vous êtes malin)",
+      "altImage": "Lunettes de soleil Pacific S01 - Style dur à cuire"
+    },
+    "trend": {
+      "badge": "VIRAL SUR LES RÉSEAUX",
+      "title": "Le Look Qui Fait Le Buzz",
+      "intro": "L'élégance discrète qui marque les esprits. Ces lunettes ont conquis les réseaux sociaux et les personnalités. Style dur à cuire, attitude badass, design intemporel. C'est le look qu'il vous faut pour affirmer votre personnalité avec raffinement.",
+      "introFootnote": "Parfait pour les réunions importantes, les photos officielles, et les moments où il faut \"faire le job\".",
+      "cards": {
+        "trendTitle": "Tendance",
+        "trendDesc": "Le style qui cartonne sur TikTok, Instagram et Twitter.",
+        "trendNote": "Même les algorithmes sont impressionnés.",
+        "attitudeTitle": "Attitude",
+        "attitudeDesc": "Un look dur à cuire qui affirme votre personnalité.",
+        "attitudeNote": "Parfait pour dire \"j'assume\" sans ouvrir la bouche.",
+        "premiumTitle": "Premium",
+        "premiumDesc": "Qualité française, design intemporel, finition soignée.",
+        "premiumNote": "Comme le bon vin, ça se bonifie avec le temps (et les photos)."
+      }
+    },
+    "features": {
+      "title": "Pourquoi Pacific S01 ?",
+      "intro": "L'excellence française. Le style dur à cuire qui allie tendance, qualité et protection. Un savoir-faire qui honore la tradition tout en embrassant la modernité.",
+      "introFootnote": "Parce que parfois, il faut savoir \"faire le job\" avec style.",
+      "uvTitle": "Protection UV 100%",
+      "uvDesc": "Protection totale contre les rayons UVA et UVB. Vos yeux sont protégés, votre style est assuré.",
+      "uvNote": "Et accessoirement, ça cache les cernes après une longue nuit de travail.",
+      "qualityTitle": "Qualité Premium",
+      "qualityDesc": "Monture métallique robuste, verres haute qualité. Un look qui dure, un style qui marque.",
+      "qualityNote": "Résiste même aux critiques les plus acerbes.",
+      "franceTitle": "Made in France",
+      "franceDesc": "Design et fabrication française. Qualité, authenticité, fierté. Le savoir-faire français à son apogée, comme l'exige l'excellence.",
+      "franceNote": "100% français, 0% compromis. Comme notre président préféré."
+    },
+    "product": {
+      "title": "Les Spécifications",
+      "subtitle": "Tout ce qu'il faut savoir sur le produit",
+      "subtitleNote": "(Et quelques détails que vous n'oseriez pas demander)",
+      "cardTitle": "Lunettes de soleil dur à cuire - Pacific S01",
+      "cardDesc": "Lunettes de soleil aviateur style dur à cuire - Verres bleus miroir",
+      "characteristics": "Caractéristiques",
+      "specs": "Spécifications",
+      "charList": {
+        "shape": "Forme : Aviateur (teardrop)",
+        "lenses": "Verres : Bleu miroir",
+        "frame": "Monture : Métal argenté",
+        "protection": "Protection : UV 100%",
+        "temples": "Longueur branche : 145mm",
+        "origin": "Origine : Made in France",
+        "elysee": "• Testé et approuvé par l'Élysée (non, on déconne)"
+      },
+      "specList": {
+        "ce": "Marquage CE conforme",
+        "nose": "Plaquettes de nez ajustables",
+        "ear": "Manchons d'oreilles noirs",
+        "design": "Design intemporel",
+        "quality": "Qualité premium",
+        "warranty": "Garantie constructeur",
+        "resists": "Résiste aux flashs des photographes (et aux critiques)"
+      }
+    },
+    "order": {
+      "title": "Rejoignez la Tendance",
+      "price": "Prix :",
+      "tagline": "Le look dur à cuire qui fait le buzz",
+      "styleLine": "Style Emmanuel • Élégance française",
+      "guarantee": "*Garantie \"faire le job\" incluse",
+      "product": "Produit",
+      "shipping": "Livraison",
+      "free": "Gratuite",
+      "total": "Total",
+      "cta": "Je veux le look maintenant",
+      "trust": "🔒 Paiement sécurisé • 🚚 Livraison 3-5 jours • ↩️ Retours gratuits 30 jours",
+      "trustNote": "*Satisfait ou remboursé (comme nos promesses électorales, mais en mieux)"
+    },
+    "footer": {
+      "tagline": "Le style dur à cuire qui fait le buzz",
+      "styleLine": "Style Emmanuel • Élégance à la française",
+      "rights": "© 2024 Tous droits réservés",
+      "disclaimer": "*Aucun président n'a été blessé lors de la fabrication de ces lunettes",
+      "dev": "Développé par",
+      "flmtech": "FLMTECH"
+    }
+  },
+  "checkout": {
+    "back": "Retour",
+    "noData": "Aucune information ne sera envoyée",
+    "title": "Finaliser votre commande",
+    "subtitle": "Quelques informations pour recevoir votre look dur à cuire",
+    "deliveryTitle": "Informations de livraison",
+    "deliveryDesc": "Remplissez vos informations pour recevoir votre Pacific S01",
+    "firstName": "Prénom *",
+    "lastName": "Nom *",
+    "email": "Email *",
+    "phone": "Téléphone *",
+    "address": "Adresse *",
+    "postalCode": "Code postal *",
+    "city": "Ville *",
+    "country": "Pays *",
+    "submit": "Confirmer et payer",
+    "submitting": "Traitement en cours...",
+    "summaryTitle": "Résumé de la commande",
+    "reduction": "Réduction spéciale",
+    "finishPayment": "💳 Finalisez votre paiement",
+    "finishNote": "Cliquez sur le lien ci-dessous pour compléter votre commande",
+    "payNow": "Payer maintenant",
+    "paySecure": "*Paiement sécurisé via PayPal",
+    "successTitle": "Commande confirmée !",
+    "successDesc": "🎉 Votre look dur à cuire est en route ! Vous recevrez un email de confirmation sous peu.",
+    "backHome": "Retour à l'accueil",
+    "jokeTitle": "😄 C'était une blague !",
+    "jokeDesc": "Désolé de vous décevoir, mais ces lunettes ne sont pas vraiment en vente...",
+    "jokeDescEnd": " pour le moment !",
+    "jokeCongrats": "Mais vous avez quand même réussi à \"faire le job\" 😎 en remplissant tout le formulaire ! 👏",
+    "thanks": "Merci d'avoir joué le jeu ! 🎭",
+    "share": "Partagez cette page avec vos amis pour leur faire la même blague !",
+    "contact": "Ou contacte moi :",
+    "laughToo": "Je rigole aussi ! 😂",
+    "backToHome": "Retour à l'accueil"
+  }
+}

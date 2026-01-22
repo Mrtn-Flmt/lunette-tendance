@@ -1,0 +1,151 @@
+{
+  "common": {
+    "brand": "Tough Guy Sunglasses",
+    "styleEmmanuel": "Emmanuel Style",
+    "weAssume": "(We own it)",
+    "lang": "Language"
+  },
+  "nav": {
+    "trend": "The Trend",
+    "product": "The Product",
+    "order": "Order",
+    "back": "Back"
+  },
+  "home": {
+    "hero": {
+      "trendBadge": "Trend of the moment",
+      "title": "Tough Guy Sunglasses",
+      "subtitle": "Pacific S01",
+      "price": "29€",
+      "priceStrikethrough": "60€",
+      "freeForFriends": "🎁 Free for friends",
+      "description": "French elegance. The style that's making waves. The sunglasses that conquered social media and celebrities. Premium aviator design, guaranteed badass attitude.",
+      "descriptionEnd": "Ride the trend with class.",
+      "descriptionFootnote": "*Tested and approved by the biggest personalities (and their communication advisors).",
+      "ctaLook": "I want the look now",
+      "ctaTrend": "Discover the trend",
+      "rating": "4.9/5",
+      "reviews": "(2.3k reviews)",
+      "inStock": "In stock",
+      "freeShipping": "Free delivery from 50€",
+      "freeShippingNote": "(or 29€ if you're clever)",
+      "altImage": "Pacific S01 sunglasses - Tough guy style"
+    },
+    "trend": {
+      "badge": "VIRAL ON SOCIAL MEDIA",
+      "title": "The Look That's Making Waves",
+      "intro": "Discreet elegance that leaves a mark. These sunglasses have conquered social media and celebrities. Tough guy style, badass attitude, timeless design. The look you need to assert your personality with refinement.",
+      "introFootnote": "Perfect for important meetings, official photos, and moments when you need to \"get the job done\".",
+      "cards": {
+        "trendTitle": "Trend",
+        "trendDesc": "The style that's killing it on TikTok, Instagram and Twitter.",
+        "trendNote": "Even the algorithms are impressed.",
+        "attitudeTitle": "Attitude",
+        "attitudeDesc": "A tough guy look that asserts your personality.",
+        "attitudeNote": "Perfect for saying \"I own it\" without opening your mouth.",
+        "premiumTitle": "Premium",
+        "premiumDesc": "French quality, timeless design, refined finish.",
+        "premiumNote": "Like fine wine, it gets better with time (and photos)."
+      }
+    },
+    "features": {
+      "title": "Why Pacific S01?",
+      "intro": "French excellence. The tough guy style that combines trend, quality and protection. Craftsmanship that honours tradition while embracing modernity.",
+      "introFootnote": "Because sometimes, you need to \"get the job done\" with style.",
+      "uvTitle": "100% UV Protection",
+      "uvDesc": "Full protection against UVA and UVB rays. Your eyes are protected, your style is assured.",
+      "uvNote": "And incidentally, it hides dark circles after a long night of work.",
+      "qualityTitle": "Premium Quality",
+      "qualityDesc": "Robust metal frame, high-quality lenses. A look that lasts, a style that makes a statement.",
+      "qualityNote": "Withstands even the harshest criticism.",
+      "franceTitle": "Made in France",
+      "franceDesc": "French design and manufacturing. Quality, authenticity, pride. French craftsmanship at its peak, as excellence demands.",
+      "franceNote": "100% French, 0% compromise. Like our favourite president."
+    },
+    "product": {
+      "title": "Specifications",
+      "subtitle": "Everything you need to know about the product",
+      "subtitleNote": "(And a few details you wouldn't dare ask)",
+      "cardTitle": "Tough guy sunglasses - Pacific S01",
+      "cardDesc": "Tough guy style aviator sunglasses - Blue mirror lenses",
+      "characteristics": "Characteristics",
+      "specs": "Specifications",
+      "charList": {
+        "shape": "Shape: Aviator (teardrop)",
+        "lenses": "Lenses: Blue mirror",
+        "frame": "Frame: Silver metal",
+        "protection": "Protection: UV 100%",
+        "temples": "Temple length: 145mm",
+        "origin": "Origin: Made in France",
+        "elysee": "• Tested and approved by the Élysée (just kidding)"
+      },
+      "specList": {
+        "ce": "CE compliant marking",
+        "nose": "Adjustable nose pads",
+        "ear": "Black ear tips",
+        "design": "Timeless design",
+        "quality": "Premium quality",
+        "warranty": "Manufacturer warranty",
+        "resists": "Withstands photographer flashes (and criticism)"
+      }
+    },
+    "order": {
+      "title": "Join the Trend",
+      "price": "Price:",
+      "tagline": "The tough guy look that's making waves",
+      "styleLine": "Emmanuel Style • French elegance",
+      "guarantee": "*\"Get the job done\" guarantee included",
+      "product": "Product",
+      "shipping": "Delivery",
+      "free": "Free",
+      "total": "Total",
+      "cta": "I want the look now",
+      "trust": "🔒 Secure payment • 🚚 3-5 day delivery • ↩️ 30-day free returns",
+      "trustNote": "*Satisfied or refunded (like our electoral promises, but better)"
+    },
+    "footer": {
+      "tagline": "The tough guy style that's making waves",
+      "styleLine": "Emmanuel Style • French elegance",
+      "rights": "© 2024 All rights reserved",
+      "disclaimer": "*No presidents were harmed in the making of these sunglasses",
+      "dev": "Developed by",
+      "flmtech": "FLMTECH"
+    }
+  },
+  "checkout": {
+    "back": "Back",
+    "noData": "No information will be sent",
+    "title": "Complete your order",
+    "subtitle": "A few details to receive your tough guy look",
+    "deliveryTitle": "Delivery information",
+    "deliveryDesc": "Fill in your details to receive your Pacific S01",
+    "firstName": "First name *",
+    "lastName": "Last name *",
+    "email": "Email *",
+    "phone": "Phone *",
+    "address": "Address *",
+    "postalCode": "Postal code *",
+    "city": "City *",
+    "country": "Country *",
+    "submit": "Confirm and pay",
+    "submitting": "Processing...",
+    "summaryTitle": "Order summary",
+    "reduction": "Special discount",
+    "finishPayment": "💳 Complete your payment",
+    "finishNote": "Click the link below to complete your order",
+    "payNow": "Pay now",
+    "paySecure": "*Secure payment via PayPal",
+    "successTitle": "Order confirmed!",
+    "successDesc": "🎉 Your tough guy look is on its way! You'll receive a confirmation email shortly.",
+    "backHome": "Back to home",
+    "jokeTitle": "😄 Just kidding!",
+    "jokeDesc": "Sorry to disappoint, but these sunglasses aren't really for sale...",
+    "jokeDescEnd": " yet!",
+    "jokeCongrats": "But you still managed to \"get the job done\" 😎 by filling out the whole form! 👏",
+    "thanks": "Thanks for playing along! 🎭",
+    "share": "Share this page with your friends to pull the same prank!",
+    "contact": "Or contact me:",
+    "laughToo": "I'm laughing too! 😂",
+    "backToHome": "Back to home"
+  }
+}

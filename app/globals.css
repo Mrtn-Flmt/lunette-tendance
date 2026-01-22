@@ -68,5 +68,7 @@
   }
   body {
     @apply bg-background text-foreground;
+    /* Garde la scrollbar visible même quand Select/Modale Radix ouvrent */
+    overflow-y: scroll !important;
   }
 }
