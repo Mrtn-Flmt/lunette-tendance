@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
-import { ArrowLeft, CreditCard, Check } from "lucide-react";
+import { ArrowLeft, CreditCard, Check, Smile, X } from "lucide-react";
 import Link from "next/link";
 import { createOrder } from "@/lib/api";
 
@@ -23,33 +23,17 @@ export default function CheckoutPage() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [showJokeModal, setShowJokeModal] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    try {
-      // Créer la commande via l'API
-      await createOrder({
-        ...formData,
-        total: 29,
-        items: [
-          {
-            productId: "pacific-s01",
-            productName: "Lunettes de soleil dur à cuire - Pacific S01",
-            quantity: 1,
-            price: 29,
-          },
-        ],
-      });
-
-      setIsSuccess(true);
-    } catch (error) {
-      console.error("Erreur lors de la commande:", error);
-      alert("Une erreur est survenue. Veuillez réessayer.");
-    } finally {
+    
+    // Simuler un petit délai pour l'effet
+    setTimeout(() => {
       setIsSubmitting(false);
-    }
+      setShowJokeModal(true);
+    }, 500);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -83,8 +67,72 @@ export default function CheckoutPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
-      <header className="border-b-2 bg-white/95 backdrop-blur-md shadow-sm">
+    <>
+      {/* Modale blague */}
+      {showJokeModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
+          <Card className="max-w-md w-full shadow-2xl border-2 border-blue-200 bg-gradient-to-br from-white to-blue-50 animate-in fade-in zoom-in duration-300">
+            <CardHeader className="text-center relative">
+              <button
+                onClick={() => setShowJokeModal(false)}
+                className="absolute top-4 right-4 text-slate-400 hover:text-slate-600 transition-colors"
+              >
+                <X className="h-5 w-5" />
+              </button>
+              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-500 to-red-500 flex items-center justify-center mx-auto mb-4 shadow-lg">
+                <Smile className="h-10 w-10 text-white" />
+              </div>
+              <CardTitle className="text-3xl font-black text-slate-900 mb-2">
+                😄 C'était une blague !
+              </CardTitle>
+              <CardDescription className="text-base mt-2 space-y-2">
+                <p className="text-slate-700">
+                  Désolé de vous décevoir, mais ces lunettes ne sont pas vraiment en vente... 
+                  <span className="font-semibold italic"> pour le moment !</span>
+                </p>
+                <p className="text-slate-600 mt-3">
+                  Mais vous avez quand même réussi à "faire le job" en remplissant tout le formulaire ! 👏
+                </p>
+                <p className="text-sm text-slate-500 mt-4 italic">
+                  *Si Emmanuel Macron passe par là et veut vraiment ces lunettes, on peut toujours négocier. 
+                  On accepte les chèques de l'Élysée ! 🇫🇷
+                </p>
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                <p className="text-sm text-slate-700 text-center">
+                  <span className="font-semibold">Merci d'avoir joué le jeu !</span> 🎭
+                </p>
+                <p className="text-xs text-slate-600 text-center mt-2">
+                  Partagez cette page avec vos amis pour leur faire la même blague !
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <Button
+                  onClick={() => setShowJokeModal(false)}
+                  className="flex-1 bg-blue-600 hover:bg-blue-700"
+                >
+                  Je rigole aussi ! 😂
+                </Button>
+                <Button
+                  variant="outline"
+                  onClick={() => {
+                    setShowJokeModal(false);
+                    window.location.href = "/";
+                  }}
+                  className="flex-1"
+                >
+                  Retour à l'accueil
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        <header className="border-b-2 bg-white/95 backdrop-blur-md shadow-sm">
         <div className="container mx-auto px-4 py-4">
           <Link href="/" className="inline-flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-slate-900 transition-colors">
             <ArrowLeft className="h-4 w-4" />
@@ -251,5 +299,6 @@ export default function CheckoutPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
