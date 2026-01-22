@@ -1,1 +1,214 @@
-[00:00:00.879] Server  LOG     ✓ Ready in 681ms
+[00:09:41.879] Server  ERROR   ⨯ TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::client_module_options_context failed
+- Execution of PagesProject::pages_dir failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+  
+  Caused by:
+      0: Looking up data for TaskId 139 from database failed
+      1: Unable to open static sorted file referenced from 00000021.meta
+      2: Unable to open static sorted file 00000015.sst
+      3: No such file or directory (os error 2)
+[00:09:41.887] Server  ERROR   TurbopackInternalError: Failed to write app endpoint /page
+
+Caused by:
+- Expected file content for file
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /page
+- Execution of AppEndpoint::output failed
+- Execution of get_app_page_entry failed
+- Execution of file_content_rope failed
+- Expected file content for file
+[00:09:41.890] Server  ERROR   ⨯ TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::client_module_options_context failed
+- Execution of PagesProject::pages_dir failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+  
+  Caused by:
+      0: Looking up data for TaskId 139 from database failed
+      1: Unable to open static sorted file referenced from 00000021.meta
+      2: Unable to open static sorted file 00000015.sst
+      3: No such file or directory (os error 2)
+[00:09:41.894] Server  ERROR   TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::client_module_options_context failed
+- Execution of PagesProject::pages_dir failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+  
+  Caused by:
+      0: Looking up data for TaskId 139 from database failed
+      1: Unable to open static sorted file referenced from 00000021.meta
+      2: Unable to open static sorted file 00000015.sst
+      3: No such file or directory (os error 2)
+[00:09:41.916] Server  ERROR   ⨯ TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::client_module_options_context failed
+- Execution of PagesProject::pages_dir failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+  
+  Caused by:
+      0: Looking up data for TaskId 139 from database failed
+      1: Unable to open static sorted file referenced from 00000021.meta
+      2: Unable to open static sorted file 00000015.sst
+      3: No such file or directory (os error 2)
+[00:09:41.963] Server  ERROR   TurbopackInternalError: Failed to write app endpoint /page
+
+Caused by:
+- Expected file content for file
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /page
+- Execution of AppEndpoint::output failed
+- Execution of get_app_page_entry failed
+- Execution of file_content_rope failed
+- Expected file content for file
+[00:09:41.972] Server  ERROR   ⨯ TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::client_module_options_context failed
+- Execution of PagesProject::pages_dir failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+  
+  Caused by:
+      0: Looking up data for TaskId 139 from database failed
+      1: Unable to open static sorted file referenced from 00000021.meta
+      2: Unable to open static sorted file 00000015.sst
+      3: No such file or directory (os error 2)
+[00:09:41.983] Server  ERROR   TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of *ChunkGroupResult::all_assets failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of PagesProject::client_module_options_context failed
+- Execution of PagesProject::pages_dir failed
+- Failed to restore task data (corrupted database or bug): Meta for get_pages_structure_for_root_directory (TaskId 139))
+  
+  Caused by:
+      0: Looking up data for TaskId 139 from database failed
+      1: Unable to open static sorted file referenced from 00000021.meta
+      2: Unable to open static sorted file 00000015.sst
+      3: No such file or directory (os error 2)

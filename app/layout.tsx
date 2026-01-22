@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Lunettes Dur à Cuire à Ma | Style Ma | Henry Julien Pacific S01",
+  title: "Lunettes Dur à Cuire à Ma | Style Ma | Lunettes de soleil dur à cuire",
   description: "Surfez sur la tendance ! Les lunettes de soleil qui ont fait le buzz. Style dur à cuire, design aviateur premium. Le look qui cartonne.",
 };
 

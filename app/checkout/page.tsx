@@ -27,22 +27,22 @@ export default function CheckoutPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       // Créer la commande via l'API
       await createOrder({
         ...formData,
-        total: 149,
+        total: 29,
         items: [
           {
             productId: "pacific-s01",
-            productName: "Henry Julien - Pacific S01",
+            productName: "Lunettes de soleil dur à cuire - Pacific S01",
             quantity: 1,
-            price: 149,
+            price: 29,
           },
         ],
       });
-      
+
       setIsSuccess(true);
     } catch (error) {
       console.error("Erreur lors de la commande:", error);
@@ -99,7 +99,7 @@ export default function CheckoutPage() {
             <h1 className="text-4xl font-black mb-2 text-slate-900">Finaliser votre commande</h1>
             <p className="text-lg text-muted-foreground">Quelques informations pour recevoir votre look dur à cuire</p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-2">
               <Card className="shadow-xl border-2 border-slate-200">
@@ -133,7 +133,7 @@ export default function CheckoutPage() {
                         />
                       </div>
                     </div>
-                    
+
                     <div className="space-y-2">
                       <Label htmlFor="email">Email *</Label>
                       <Input
@@ -145,7 +145,7 @@ export default function CheckoutPage() {
                         onChange={handleChange}
                       />
                     </div>
-                    
+
                     <div className="space-y-2">
                       <Label htmlFor="phone">Téléphone *</Label>
                       <Input
@@ -157,7 +157,7 @@ export default function CheckoutPage() {
                         onChange={handleChange}
                       />
                     </div>
-                    
+
                     <div className="space-y-2">
                       <Label htmlFor="address">Adresse *</Label>
                       <Input
@@ -168,7 +168,7 @@ export default function CheckoutPage() {
                         onChange={handleChange}
                       />
                     </div>
-                    
+
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="space-y-2">
                         <Label htmlFor="postalCode">Code postal *</Label>
@@ -191,7 +191,7 @@ export default function CheckoutPage() {
                         />
                       </div>
                     </div>
-                    
+
                     <div className="space-y-2">
                       <Label htmlFor="country">Pays *</Label>
                       <Input
@@ -202,10 +202,10 @@ export default function CheckoutPage() {
                         onChange={handleChange}
                       />
                     </div>
-                    
-                    <Button 
-                      type="submit" 
-                      size="lg" 
+
+                    <Button
+                      type="submit"
+                      size="lg"
                       className="w-full text-lg py-6 bg-gradient-to-r from-slate-900 to-slate-700 hover:from-slate-800 hover:to-slate-600 font-bold"
                       disabled={isSubmitting}
                     >
@@ -222,7 +222,7 @@ export default function CheckoutPage() {
                 </CardContent>
               </Card>
             </div>
-            
+
             <div>
               <Card className="shadow-xl border-2 border-slate-200 sticky top-24 bg-gradient-to-br from-slate-50 to-white">
                 <CardHeader>
@@ -232,7 +232,7 @@ export default function CheckoutPage() {
                   <div className="space-y-3">
                     <div className="flex justify-between p-3 bg-white rounded-lg border border-slate-200">
                       <span className="font-semibold text-slate-700">Pacific S01</span>
-                      <span className="font-bold text-slate-900">149€</span>
+                      <span className="font-bold text-slate-900">29€</span>
                     </div>
                     <div className="flex justify-between p-3 bg-white rounded-lg border border-slate-200">
                       <span className="text-slate-600">Livraison</span>
@@ -241,7 +241,7 @@ export default function CheckoutPage() {
                     <Separator />
                     <div className="flex justify-between p-4 bg-gradient-to-r from-slate-900 to-slate-700 rounded-lg text-white">
                       <span className="text-lg font-bold">Total</span>
-                      <span className="text-2xl font-black">149€</span>
+                      <span className="text-2xl font-black">29€</span>
                     </div>
                   </div>
                 </CardContent>
