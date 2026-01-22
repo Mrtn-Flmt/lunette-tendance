@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">
-              Lunettes De Dur à Cuire
+              Lunettes de Dur à Cuire
             </h1>
           </div>
           <nav className="hidden md:flex gap-6">
@@ -43,7 +43,7 @@ export default function Home() {
 
               {/* Titre principal */}
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black tracking-tight text-slate-900">
-                Dur à Cuire
+                Lunette de Dur à Cuire
               </h1>
 
               {/* Sous-titre produit */}
@@ -103,7 +103,7 @@ export default function Home() {
 
             {/* Image produit */}
             <div className="relative order-1 lg:order-2 w-full max-w-md mx-auto lg:max-w-none">
-              <div className="relative aspect-square rounded-2xl sm:rounded-3xl bg-slate-50 p-4 sm:p-6 md:p-8 flex items-center justify-center shadow-2xl border border-blue-100">
+              <div className="relative aspect-square flex items-center justify-center">
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image
                     src="/lunette.jpg"
