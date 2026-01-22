@@ -80,10 +80,15 @@ export default function Home() {
               </p>
 
               {/* Prix proéminent avec glassmorphism */}
-              <div className="flex items-baseline justify-center lg:justify-start gap-2 py-2">
+              <div className="flex flex-col sm:flex-row items-center sm:items-baseline justify-center lg:justify-start gap-3 py-2">
                 <div className="backdrop-blur-sm bg-white/70 border border-white/50 rounded-lg px-4 py-2 shadow-lg">
                   <span className="text-3xl sm:text-4xl md:text-5xl font-black text-red-600">29€</span>
                   <span className="text-sm sm:text-base text-slate-500 line-through ml-2">60€</span>
+                </div>
+                <div className="backdrop-blur-md bg-gradient-to-r from-blue-500/30 to-red-500/30 border-2 border-blue-400/50 rounded-full px-4 sm:px-6 py-2 shadow-lg">
+                  <p className="text-base sm:text-lg font-black bg-gradient-to-r from-blue-600 to-red-600 bg-clip-text text-transparent">
+                    🎁 Gratuit pour les copains
+                  </p>
                 </div>
               </div>
 
