@@ -15,6 +15,7 @@ export default function Home() {
               Lunettes de Dur à Cuire
             </h1>
             <span className="hidden sm:inline text-xs font-medium text-slate-500 italic">Style Emmanuel</span>
+            <span className="hidden lg:inline text-[10px] text-slate-400 italic ml-2">(On assume)</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#tendance" className="text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors">
@@ -93,6 +94,7 @@ export default function Home() {
                   Les lunettes de soleil qui ont conquis les réseaux et les personnalités.
                   Design aviateur premium, attitude badass garantie.
                   <span className="font-semibold text-slate-900"> Surfez sur la tendance avec classe.</span>
+                  <span className="text-sm text-slate-600 italic block mt-2">*Testé et approuvé par les plus grandes personnalités (et leurs conseillers en communication).</span>
                 </p>
               </div>
 
@@ -134,6 +136,7 @@ export default function Home() {
                   <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-blue-600">
                     <Truck className="h-3 w-3 sm:h-4 sm:w-4" />
                     <span>Livraison gratuite à partir de 50€</span>
+                    <span className="text-[10px] text-slate-500">(ou 29€ si vous êtes malin)</span>
                   </div>
                 </div>
               </div>
@@ -142,18 +145,28 @@ export default function Home() {
             {/* Image produit avec glassmorphism */}
             <div className="relative order-1 lg:order-2 w-full max-w-md mx-auto lg:max-w-none">
               <div className="relative aspect-square flex items-center justify-center">
-                {/* Effet glassmorphism autour de l'image */}
-                <div className="absolute inset-0 backdrop-blur-sm bg-white/40 rounded-3xl border border-white/50 shadow-2xl" />
-                <div className="relative w-full h-full flex items-center justify-center p-8">
-                  <Image
-                    src="/lunette.jpg"
-                    alt="Lunettes de soleil Pacific S01 - Style dur à cuire"
-                    width={600}
-                    height={600}
-                    className="object-contain w-full h-full max-w-full drop-shadow-2xl"
-                    priority
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
-                  />
+                {/* Effet glassmorphism amélioré avec fond dégradé subtil */}
+                <div className="absolute inset-0 backdrop-blur-md bg-gradient-to-br from-white/70 via-white/60 to-slate-50/50 rounded-3xl border border-white/70 shadow-2xl" />
+                {/* Reflet subtil pour plus de profondeur */}
+                <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-transparent via-transparent to-white/10" />
+                <div className="relative w-full h-full flex items-center justify-center p-6 sm:p-8">
+                  {/* Conteneur pour l'image avec effet de profondeur */}
+                  <div className="relative w-full h-full flex items-center justify-center">
+                    {/* Fond dégradé subtil derrière l'image */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-blue-50/30 via-transparent to-red-50/20 rounded-2xl blur-sm" />
+                    <Image
+                      src="/lunette.jpg"
+                      alt="Lunettes de soleil Pacific S01 - Style dur à cuire"
+                      width={600}
+                      height={600}
+                      className="relative object-contain w-full h-full max-w-full z-10"
+                      priority
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
+                      style={{
+                        filter: 'drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15)) drop-shadow(0 10px 20px rgba(0, 0, 0, 0.1))',
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -176,6 +189,7 @@ export default function Home() {
               <span className="font-semibold italic text-slate-900">L'élégance discrète qui marque les esprits.</span> Ces lunettes ont conquis les réseaux sociaux et les personnalités.
               Style dur à cuire, attitude badass, design intemporel.
               C'est le look qu'il vous faut pour affirmer votre personnalité avec raffinement.
+              <span className="block mt-2 text-base italic text-slate-600">Parfait pour les réunions importantes, les photos officielles, et les moments où il faut "faire le job".</span>
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-8 sm:mt-12">
               <Card className="border border-red-100 bg-white hover:border-red-200 transition-colors">
@@ -183,7 +197,8 @@ export default function Home() {
                   <div className="text-4xl mb-2">🔥</div>
                   <CardTitle className="text-xl text-slate-900">Tendance</CardTitle>
                   <CardDescription className="text-base">
-                    Le style qui cartonne sur TikTok, Instagram et Twitter
+                    Le style qui cartonne sur TikTok, Instagram et Twitter.
+                    <span className="text-sm italic text-slate-500 block mt-1">Même les algorithmes sont impressionnés.</span>
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -192,7 +207,8 @@ export default function Home() {
                   <div className="text-4xl mb-2">💪</div>
                   <CardTitle className="text-xl text-slate-900">Attitude</CardTitle>
                   <CardDescription className="text-base">
-                    Un look dur à cuire qui affirme votre personnalité
+                    Un look dur à cuire qui affirme votre personnalité.
+                    <span className="text-sm italic text-slate-500 block mt-1">Parfait pour dire "j'assume" sans ouvrir la bouche.</span>
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -201,7 +217,8 @@ export default function Home() {
                   <div className="text-4xl mb-2">⭐</div>
                   <CardTitle className="text-xl text-slate-900">Premium</CardTitle>
                   <CardDescription className="text-base">
-                    Qualité française, design intemporel, finition soignée
+                    Qualité française, design intemporel, finition soignée.
+                    <span className="text-sm italic text-slate-500 block mt-1">Comme le bon vin, ça se bonifie avec le temps (et les photos).</span>
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -218,6 +235,7 @@ export default function Home() {
             <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
               <span className="font-semibold italic text-slate-900">L'excellence française.</span> Le style dur à cuire qui allie tendance, qualité et protection.
               Un savoir-faire qui honore la tradition tout en embrassant la modernité.
+              <span className="block mt-2 text-sm italic text-slate-500">Parce que parfois, il faut savoir "faire le job" avec style.</span>
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -229,6 +247,7 @@ export default function Home() {
                 <CardTitle className="text-xl font-bold text-slate-900">Protection UV 100%</CardTitle>
                 <CardDescription className="text-base">
                   Protection totale contre les rayons UVA et UVB. Vos yeux sont protégés, votre style est assuré.
+                  <span className="text-sm italic text-slate-500 block mt-1">Et accessoirement, ça cache les cernes après une longue nuit de travail.</span>
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -240,6 +259,7 @@ export default function Home() {
                 <CardTitle className="text-xl font-bold text-slate-900">Qualité Premium</CardTitle>
                 <CardDescription className="text-base">
                   Monture métallique robuste, verres haute qualité. Un look qui dure, un style qui marque.
+                  <span className="text-sm italic text-slate-500 block mt-1">Résiste même aux critiques les plus acerbes.</span>
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -252,6 +272,7 @@ export default function Home() {
                 <CardDescription className="text-base">
                   Design et fabrication française. Qualité, authenticité, fierté.
                   <span className="font-semibold italic"> Le savoir-faire français à son apogée, comme l'exige l'excellence.</span>
+                  <span className="text-sm italic text-slate-500 block mt-1">100% français, 0% compromis. Comme notre président préféré.</span>
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -265,6 +286,7 @@ export default function Home() {
           <div className="text-center mb-8 sm:mb-12">
             <h3 className="text-3xl sm:text-4xl font-black mb-4 text-slate-900">Les Spécifications</h3>
             <p className="text-base sm:text-lg text-slate-600">Tout ce qu'il faut savoir sur le produit</p>
+            <p className="text-sm italic text-slate-500 mt-2">(Et quelques détails que vous n'oseriez pas demander)</p>
           </div>
           <Card className="shadow-2xl border border-blue-100">
             <CardHeader>
@@ -284,6 +306,7 @@ export default function Home() {
                     <li>• Protection : UV 100%</li>
                     <li>• Longueur branche : 145mm</li>
                     <li>• Origine : Made in France</li>
+                    <li className="text-xs italic text-slate-500">• Testé et approuvé par l'Élysée (non, on déconne)</li>
                   </ul>
                 </div>
                 <div>
@@ -295,6 +318,7 @@ export default function Home() {
                     <li>• Design intemporel</li>
                     <li>• Qualité premium</li>
                     <li>• Garantie constructeur</li>
+                    <li className="text-xs italic text-slate-500">• Résiste aux flashs des photographes (et aux critiques)</li>
                   </ul>
                 </div>
               </div>
@@ -315,6 +339,7 @@ export default function Home() {
                 </CardDescription>
                 <p className="text-sm text-slate-400 mt-2 italic">Le look dur à cuire qui fait le buzz</p>
                 <p className="text-xs text-slate-400 mt-1 font-medium">Style Emmanuel • Élégance française</p>
+                <p className="text-xs text-slate-500 mt-2 italic">*Garantie "faire le job" incluse</p>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="space-y-4">
@@ -340,6 +365,9 @@ export default function Home() {
                 <p className="text-xs sm:text-sm text-center text-slate-400">
                   🔒 Paiement sécurisé • 🚚 Livraison 3-5 jours • ↩️ Retours gratuits 30 jours
                 </p>
+                <p className="text-xs text-center text-slate-500 mt-2 italic">
+                  *Satisfait ou remboursé (comme nos promesses électorales, mais en mieux)
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -354,6 +382,7 @@ export default function Home() {
             <p className="text-sm text-slate-600 italic">Le style dur à cuire qui fait le buzz</p>
             <p className="text-xs text-slate-500 mt-2 font-medium">Style Emmanuel • Élégance à la française</p>
             <p className="text-xs text-slate-500 mt-4">© 2024 Tous droits réservés</p>
+            <p className="text-xs text-slate-400 mt-2 italic">*Aucun président n'a été blessé lors de la fabrication de ces lunettes</p>
           </div>
           <div className="mt-6 pt-6 border-t border-blue-100">
             <p className="text-xs text-slate-500">
