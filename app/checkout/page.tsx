@@ -103,6 +103,9 @@ export default function CheckoutPage() {
                 <p className="text-xs text-slate-600 text-center mt-2">
                   Partagez cette page avec vos amis pour leur faire la même blague !
                 </p>
+                <p className="text-xs text-slate-600 text-center mt-2">
+                  Ou contacte moi : <a href="mailto:contact@flmtech.fr">mrtn.flmt@gmail.com</a>
+                </p>
               </div>
               <div className="flex gap-3">
                 <Button
